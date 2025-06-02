@@ -31,7 +31,7 @@ class Clientes extends ActiveRecord
         
     }
 
-    public static function EliminarProductos($id){
+    public static function EliminarClientes($id){
         $sql = "UPDATE clientes SET cli_situacion = 0 WHERE cli_id = $id";
         return self::SQL($sql);
     }

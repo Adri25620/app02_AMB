@@ -35,7 +35,7 @@
             <a class="nav-link" href="/app02_AMB/productos"><i class="bi bi-archive"> PRODUCTOS</i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/app02_AMB/venta"><i class="bi bi-cart-dash"> VENTA</i></a>
+            <a class="nav-link" href="/app02_AMB/ventas"><i class="bi bi-cart-dash"> VENTA</i></a>
           </li>
         </ul>
       </div>

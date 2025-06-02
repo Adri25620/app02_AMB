@@ -8,7 +8,7 @@
 
                 <div class="row justify-content-center">
 
-                    <form id="FormcClientes">
+                    <form id="FormClientes">
                         <input type="hidden" id="cli_id" name="cli_id">
 
                         <div class="row mb-3 justify-content-center">

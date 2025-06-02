@@ -16,7 +16,7 @@ pro_disponible integer,
 pro_situacion char(1)
 );
 
-create table venta(
+create table ventas(
 ven_id serial primary key,
 ven_cliente integer,
 ven_producto integer,
@@ -25,8 +25,8 @@ ven_situacion char(1)
 );
 
 
-alter table venta add constraint (foreign key(ven_cliente)
+alter table ventas add constraint (foreign key(ven_cliente)
 references clientes(cli_id) constraint fk_ven_cli)
 
-alter table venta add constraint (foreign key(ven_producto)
+alter table ventas add constraint (foreign key(ven_producto)
 references productos(pro_id) constraint fk_ven_pro)
