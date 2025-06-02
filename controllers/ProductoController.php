@@ -180,7 +180,7 @@ class ProductoController extends ActiveRecord
 
     public static function EliminarAPI()
     {
-        if ($_POST['pro_disponible'] = 0) {
+        if ($_GET['pro_disponible'] == 0) {
 
             try {
 
