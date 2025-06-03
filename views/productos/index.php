@@ -18,7 +18,7 @@
 
 
                             <label for="pro_precio" class="form-label">Ingrese el precio:</label>
-                            <input type="number" class="form-control" id="pro_precio" name="pro_precio" placeholder="Ingrese el precio...">
+                            <input type="text" class="form-control" id="pro_precio" name="pro_precio" placeholder="Ingrese el precio...">
 
 
                             <label for="pro_disponible" class="form-label">Ingrese la cantidad a stock:</label>
